@@ -1,12 +1,5 @@
-// Global Variables
-let req = ""
-let query = ""
-let results = ""
-let pw = "BiA375.ekh"  
-let netID = "ekh74960"
 
-
-btnViewCustomers.onclick=function(){
+customerDelete.onshow=function(){
 
   query = "SELECT name FROM customer"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=ekh74960&pass=" + pw + "&database=ekh74960&query=" + query)
@@ -23,5 +16,11 @@ btnViewCustomers.onclick=function(){
     }
 
 } else
-    txtShowCustomers.textContent = "Error code: " + req.status
+    txtShowCustomers.textContent = "Error code: " + req.status  
 }
+
+
+btnDelete.onclick=function(){
+  
+}
+
