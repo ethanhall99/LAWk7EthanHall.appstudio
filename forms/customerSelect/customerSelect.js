@@ -6,6 +6,11 @@ let pw = "BiA375.ekh"
 let netID = "ekh74960"
 
 
+customerSelect.onshow=function(){
+  txtShowCustomers.style.height = "500px"
+}
+
+
 btnViewCustomers.onclick=function(){
 
   query = "SELECT name FROM customer"
@@ -18,10 +23,12 @@ btnViewCustomers.onclick=function(){
     else {        
        let message = ""
        for (i = 0; i < results.length; i++)
-           message = message + results[i][1] + "\n"
+           message = message + results[i][0] + "\n"
        txtShowCustomers.value = message
     }
 
 } else
     txtShowCustomers.textContent = "Error code: " + req.status
 }
+
+
