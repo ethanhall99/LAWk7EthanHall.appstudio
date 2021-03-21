@@ -43,7 +43,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "customerSelect.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
