@@ -10,7 +10,7 @@ customerUpdate.onshow=function(){
   if (req.status == 200) { 
     results = JSON.parse(req.responseText)
     if (results.length == 0)    
-       txtCustomerUpdate.textContent = "There are no customers in the database."
+       txtCustomerUpdate.value = "There are no customers in the database."
     else {        
        let message = ""
        for (i = 0; i < results.length; i++)
@@ -19,7 +19,7 @@ customerUpdate.onshow=function(){
     }
 
 } else
-    txtCustomerUpdate.textContent = "Error code: " + req.status   
+    txtCustomerUpdate.value = "Error code: " + req.status   
 }
 
 
