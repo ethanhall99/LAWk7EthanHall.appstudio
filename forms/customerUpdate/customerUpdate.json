@@ -16,7 +16,7 @@
         "forms",
         "customerUpdate",
         "Elements",
-        "Textarea1.json"
+        "txtCustomerUpdate.json"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "forms",
         "customerUpdate",
         "Elements",
-        "Input1.json"
+        "inptOld.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "customerUpdate",
         "Elements",
-        "Input2.json"
+        "inptNew.json"
       ]
     },
     {
@@ -43,7 +43,16 @@
         "forms",
         "customerUpdate",
         "Elements",
-        "Button1.json"
+        "btnUpdate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerUpdate",
+        "Elements",
+        "lblUpdateMsg.json"
       ]
     }
   ],
@@ -61,7 +70,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "customerUpdate.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
