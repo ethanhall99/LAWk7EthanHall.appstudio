@@ -33,6 +33,14 @@
             "customerDelete",
             "customerDelete.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "customerAdd",
+            "customerAdd.json"
+          ]
         }
       ],
       "configxml": null,
