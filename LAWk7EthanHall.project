@@ -41,14 +41,6 @@
             "customerAdd",
             "customerAdd.json"
           ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "customerUpdate",
-            "customerUpdate.json"
-          ]
         }
       ],
       "configxml": null,
@@ -70,7 +62,10 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+<<<<<<< HEAD
       "firstform": "customerSelect",
+=======
+>>>>>>> fd181ce4efcb2f10478c66b625f7a847d1dd92a9
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
