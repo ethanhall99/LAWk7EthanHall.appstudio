@@ -1,7 +1,7 @@
 // Global Variables
-let req = ""
+let req = {}
 let query = ""
-let results = ""
+let results = []
 let pw = "BiA375.ekh"  
 let netID = "ekh74960"
 
