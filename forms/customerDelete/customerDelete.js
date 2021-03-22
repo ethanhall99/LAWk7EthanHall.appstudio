@@ -7,7 +7,7 @@ customerDelete.onshow=function(){
   if (req.status == 200) { 
     results = JSON.parse(req.responseText)
     if (results.length == 0)    
-       txtCurrentCustomers.textContent = "There are no customers in the database."
+       txtCurrentCustomers.value = "There are no customers in the database."
     else {        
        let message = ""
        for (i = 0; i < results.length; i++)
@@ -16,7 +16,7 @@ customerDelete.onshow=function(){
     }
 
 } else
-    txtShowCustomers.textContent = "Error code: " + req.status  
+    txtShowCustomers.value = "Error code: " + req.status  
 }
 
 

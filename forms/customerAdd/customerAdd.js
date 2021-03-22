@@ -14,7 +14,7 @@ customerAdd.onshow=function(){
   if (req.status == 200) { 
     results = JSON.parse(req.responseText)
     if (results.length == 0)    
-       txtCustomers.textContent = "There are no customers in the database."
+       txtCustomers.value = "There are no customers in the database."
     else {        
        let message = ""
        for (i = 0; i < results.length; i++)
@@ -23,7 +23,7 @@ customerAdd.onshow=function(){
     }
 
 } else
-    txtCustomers.textContent = "Error code: " + req.status  
+    txtCustomers.value = "Error code: " + req.status  
 }
 
 

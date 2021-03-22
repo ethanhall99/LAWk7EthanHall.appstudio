@@ -18,15 +18,6 @@
         "Elements",
         "txtShowCustomers.json"
       ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "customerSelect",
-        "Elements",
-        "btnViewCustomers.json"
-      ]
     }
   ],
   "class": "",
